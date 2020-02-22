@@ -15,11 +15,10 @@
     <link rel="stylesheet" href="./assets/main.css">
     <link rel="stylesheet" href="./assets/color.css">
     <link rel="stylesheet" href="./assets/responsive.css">
-
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-360903-8"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
+        window.dataLayer = window.dataLayer || [];
 
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
@@ -257,6 +256,31 @@
                             <div class="tg-sectionhead tg-sectionheadvthree">
                                 <div class="tg-sectiontitle">
                                     <span>Contact The Author<br><br><a href="mailto:StayDaughter@gmail.com">StayDaughter@gmail.com</a></span>
+                                </div>
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <div>
+                                    <style>
+                                        input, textarea {
+                                            text-transform: initial !important;
+                                        }
+                                    </style>
+                                    <form name="contact" method="POST" data-netlify="true" style="">
+                                        <p>
+                                            <label>Your Name:<br /> <input type="text" name="name" /></label>
+                                        </p>
+                                        <p>
+                                            <label>Your Email:<br /> <input type="email" name="email" /></label>
+                                        </p>
+                                        <p>
+                                            <label>Message:<br /> <textarea name="message" style="width: 75%; height: 250px; border-radius: 5px;"></textarea></label>
+                                        </p>
+                                        <p>
+                                            <button class="tg-btn tg-active" type="submit">Send</button>
+                                        </p>
+                                    </form>
                                 </div>
                             </div>
                         </div>
